@@ -498,3 +498,6 @@ advanced:
     slack: 4000
   batch_send_interval: 3              # 批次发送间隔（秒）
   feishu_message_separator: "━━━━━━━━━━━━━━━━"
+  run_mode: incremental  # 改为增量模式，不重复推送旧新闻
+  cron_schedule: */3 * * * *  # Actions固定3分钟一轮，不要改太快
+  timezone: Asia/Shanghai
